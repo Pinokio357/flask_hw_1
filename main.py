@@ -22,6 +22,7 @@ def emp():
 def jct():
     return render_template("jacket.html")
 
+
 @app.route("/cloth.html/empty.html/")
 def emp_2():
     return render_template("empty.html")
